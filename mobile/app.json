@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "AirCnC",
+    "slug": "mobile",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "splash": {
+      "image": "./src/assets/slapsh.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "aircnc.com.br"
+    },
+    "android": {
+      "package": "aircnc.com.br"
+    }
+  }
+}
